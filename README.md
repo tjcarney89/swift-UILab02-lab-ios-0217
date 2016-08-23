@@ -4,11 +4,11 @@
 
 > Perfection is not attainable, but if we chase perfection we can catch excellence. -[Vince Lombardi](https://en.wikipedia.org/wiki/Vince_Lombardi)
 
-
-
-## Paints: A Primer
+## Overview
 
 Have you ever mixed two colors of paint together? You get a different color, right? In this lab, you will be mixing two colors of paint together to produce another color.
+
+## Paints: A Primer
 
 Artists often use _primary_ colors to produce _secondary_ colors. Primary colors are ones that can easily be mixed together to produce other colors. For example, you can mix red and blue together to make purple, or yellow and red together to make orange. Here is a table showing a primary color along the top and left side, and what colors they produce when mixed:
 
