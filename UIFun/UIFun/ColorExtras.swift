@@ -39,7 +39,7 @@ extension UIView {
         set {
             switch newValue {
             case "red": paintColor = UIColor.redColor()
-            case "lue": paintColor = UIColor.blueColor()
+            case "blue": paintColor = UIColor.blueColor()
             case "yellow": paintColor = UIColor.yellowColor()
             case "purple": paintColor = UIColor.purpleColor()
             case "orange": paintColor = UIColor.orangeColor()
