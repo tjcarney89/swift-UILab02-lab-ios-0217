@@ -83,7 +83,9 @@ Here is what you need to accomplish to get this application working. Before you 
 
 A few pieces of code have been provided for you to make this lab a bit easier.
 
-1. You can call `color` on a segmented control to get its selected color.
+1. You can call `color` on a segmented control to get its selected color.  
+For example, within the implementation of the `colorSelected(_:)` method--one of its arguments is called `sender` of type `UISegmentedControl`. By typing out `sender.color` we are getting back the `UIColor` (red, yellow or blue) that was selected on that particular segmented control object.
+
 2. You can call `name` on a color to get the name of the color, as a string.
 3. You can combine \#1 and \#2 to get the name of a color represented by a segmented control. For example, given a segmented control named `sender`, you can call `sender.color.name` to get the name of its selected color.
 4. You can set the color of a view, such as the paint bucket view, with a string using `paintColorName`. For example, if your paint bucket's IB outlet is named `paintBucket`, you can use `paintBucket.paintColorName = "red"` to set the paint color to red.
