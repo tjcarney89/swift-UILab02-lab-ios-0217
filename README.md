@@ -71,7 +71,7 @@ Time to get started!
 
 Here is what you need to accomplish to get this application working. Before you start, though, make sure to read through this entire lab, as there are some helpful hints and notes at the end that should make your task a lot easier.
 
-1. Create an _IB outlet_ to the paint bucket view. (This outlet should be of type `UIView`.) Connect it to the paint bucket.
+1. Create an _IB outlet_ to the paint bucket view. (This outlet should be of type `UIImageView`.) Connect it to the paint bucket.
 2. Add the two segmented controls below the paint bucket view.
 3. Create and connect an _IB outlet_ to the first segmented control. This should be of type `UISegmentedControl`.
 4. Create and connect another _IB outlet_ to the second segmented control. This should also be of type `UISegmentedControl`.
@@ -92,3 +92,5 @@ A few pieces of code have been provided for you to make this lab a bit easier.
 You should be able to combine all these hints, along with the existing code, to complete this lab. Good luck! Don't forget to build and run your app _often_. Don't try to complete the lab all in one go! If you make a mistake or introduce a bug, it will be much easier to track down the source of the problem if you are frequently testing your app. Tackle the problem in small chunks, and feel free to add your own `print()` statements along the way to see what your code is doing.
 
 <a href='https://learn.co/lessons/UILab02' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-UILab02-lab'>UI Lab: Painting By Numbers</a> on Learn.co and start learning to code for free.</p>
