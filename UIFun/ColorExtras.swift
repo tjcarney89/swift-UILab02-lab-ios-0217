@@ -11,12 +11,12 @@ import UIKit
 extension UIColor {
     var name: String {
         switch self {
-        case UIColor.redColor(): return "red"
-        case UIColor.blueColor(): return "blue"
-        case UIColor.yellowColor(): return "yellow"
-        case UIColor.purpleColor(): return "purple"
-        case UIColor.orangeColor(): return "orange"
-        case UIColor.greenColor(): return "green"
+        case UIColor.red: return "red"
+        case UIColor.blue: return "blue"
+        case UIColor.yellow: return "yellow"
+        case UIColor.purple: return "purple"
+        case UIColor.orange: return "orange"
+        case UIColor.green: return "green"
         default: assert(false, "Invalid paint color: \(self)")
         }
     }
@@ -38,12 +38,12 @@ extension UIView {
         }
         set {
             switch newValue {
-            case "red": paintColor = UIColor.redColor()
-            case "blue": paintColor = UIColor.blueColor()
-            case "yellow": paintColor = UIColor.yellowColor()
-            case "purple": paintColor = UIColor.purpleColor()
-            case "orange": paintColor = UIColor.orangeColor()
-            case "green": paintColor = UIColor.greenColor()
+            case "red": paintColor = UIColor.red
+            case "blue": paintColor = UIColor.blue
+            case "yellow": paintColor = UIColor.yellow
+            case "purple": paintColor = UIColor.purple
+            case "orange": paintColor = UIColor.orange
+            case "green": paintColor = UIColor.green
             default: assert(false, "Invalid paint color: \(newValue)")
             }
         }
@@ -53,9 +53,9 @@ extension UIView {
 extension UISegmentedControl {
     var color: UIColor {
         switch selectedSegmentIndex {
-        case 0: return UIColor.redColor()
-        case 1: return UIColor.yellowColor()
-        case 2: return UIColor.blueColor()
+        case 0: return UIColor.red
+        case 1: return UIColor.yellow
+        case 2: return UIColor.blue
         default: assert(false, "Invalid index: \(selectedSegmentIndex)")
         }
     }

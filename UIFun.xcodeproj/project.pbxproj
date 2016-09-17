@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D139A581D8DF98300F92686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D139A571D8DF98300F92686 /* ViewController.swift */; };
 		B74C97321D17531900D0EEA5 /* PaintBucket.png in Resources */ = {isa = PBXBuildFile; fileRef = B74C97311D17531900D0EEA5 /* PaintBucket.png */; };
 		B74C97341D17540100D0EEA5 /* ColorExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74C97331D17540100D0EEA5 /* ColorExtras.swift */; };
 		B7AAB9E71D174E6800826CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AAB9E61D174E6800826CCC /* AppDelegate.swift */; };
-		B7AAB9E91D174E6800826CCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AAB9E81D174E6800826CCC /* ViewController.swift */; };
 		B7AAB9EC1D174E6800826CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7AAB9EA1D174E6800826CCC /* Main.storyboard */; };
 		B7AAB9EE1D174E6800826CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7AAB9ED1D174E6800826CCC /* Assets.xcassets */; };
 		B7AAB9F11D174E6800826CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7AAB9EF1D174E6800826CCC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D139A571D8DF98300F92686 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B74C97311D17531900D0EEA5 /* PaintBucket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PaintBucket.png; sourceTree = "<group>"; };
 		B74C97331D17540100D0EEA5 /* ColorExtras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtras.swift; sourceTree = "<group>"; };
 		B7AAB9E31D174E6800826CCC /* UIFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7AAB9E61D174E6800826CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7AAB9E81D174E6800826CCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7AAB9EB1D174E6800826CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7AAB9ED1D174E6800826CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7AAB9F01D174E6800826CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,8 +58,8 @@
 		B7AAB9E51D174E6800826CCC /* UIFun */ = {
 			isa = PBXGroup;
 			children = (
+				7D139A571D8DF98300F92686 /* ViewController.swift */,
 				B7AAB9E61D174E6800826CCC /* AppDelegate.swift */,
-				B7AAB9E81D174E6800826CCC /* ViewController.swift */,
 				B7AAB9EA1D174E6800826CCC /* Main.storyboard */,
 				B7AAB9ED1D174E6800826CCC /* Assets.xcassets */,
 				B7AAB9EF1D174E6800826CCC /* LaunchScreen.storyboard */,
@@ -103,6 +103,7 @@
 					B7AAB9E21D174E6800826CCC = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = JL54VFJL37;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -143,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7AAB9E91D174E6800826CCC /* ViewController.swift in Sources */,
+				7D139A581D8DF98300F92686 /* ViewController.swift in Sources */,
 				B74C97341D17540100D0EEA5 /* ColorExtras.swift in Sources */,
 				B7AAB9E71D174E6800826CCC /* AppDelegate.swift in Sources */,
 			);
@@ -262,6 +263,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironschool.UIFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -273,6 +275,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironschool.UIFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
